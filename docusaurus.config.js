@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site really....',
+  title: 'Gerome Yoo',
   tagline: 'I know you hate data',
   favicon: 'img/favicon.ico',
 
