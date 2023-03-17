@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ashjean7805.github.io/docu_blog/blog</id>
     <title>Gerome Yoo Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2023-03-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjean7805.github.io/docu_blog/blog"/>
     <subtitle>Gerome Yoo Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Hello World!]]></title>
+        <id>https://ashjean7805.github.io/docu_blog/blog/wrong-blog-post</id>
+        <link href="https://ashjean7805.github.io/docu_blog/blog/wrong-blog-post"/>
+        <updated>2023-03-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is the very first blog page using docusaurus.]]></summary>
+        <content type="html"><![CDATA[<p>This is the very first blog page using docusaurus.</p><p>제일 처음으로 작성하게 된 블로그 페이지입니다.</p><p>이전에도 블로그를 도큐사우루스를 사용하여 빌드하려 했으나, 프론트 개발도 잘 모르고 리액트도 모르고 해서 따라만 하고 관뒀던 전력이 있었습니다.</p><p>2번 정도 시도해보니까 이젠 구조가 조금 눈에 보이네요.</p><p>얼마나 잘 유지될지 모르겠지만, 최소한의 노력으로 데이터 쪽과 통계 쪽에 관하여 작성하기 위하 고른 툴인 만큼</p><p>해당 분야에서라도 열심히 하려고 합니다.</p><p>잘 봐주시면 감사하겠습니다.</p>]]></content>
+        <author>
+            <name>Gerome Yoo</name>
+            <uri>https://github.com/ashjean7805</uri>
+        </author>
+        <category label="hello" term="hello"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://ashjean7805.github.io/docu_blog/blog/welcome</id>
@@ -18,20 +32,6 @@
             <uri>https://github.com/ashjean7805</uri>
         </author>
         <category label="facebook" term="facebook"/>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Test Blog Post]]></title>
-        <id>https://ashjean7805.github.io/docu_blog/blog/wrong-blog-post</id>
-        <link href="https://ashjean7805.github.io/docu_blog/blog/wrong-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gerome Yoo</name>
-            <uri>https://github.com/ashjean7805</uri>
-        </author>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
