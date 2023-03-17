@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Gerome Yoo',
   tagline: 'I know you hate data',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://ashjean7805.github.io',
