@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://ashjean7805.github.io/docu_blog/',
+            'https://github.com/ashjean7805/docu_blog',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://ashjean7805.github.io/docu_blog/',
+            'https://github.com/ashjean7805/docu_blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,10 +67,10 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Gerome Yoo',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
           {
             type: 'doc',
