@@ -1,6 +1,6 @@
 ---
-slug: long-blog-post
-title: Long Blog Post
+slug: wrong-blog-post
+title: Test Blog Post
 authors: [Gerome]
 tags: [hello, docusaurus]
 ---
