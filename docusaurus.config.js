@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://ashjean7805.github.io/blog/docs',
+            'https://ashjean7805.github.io/docu_blog/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://ashjean7805.github.io/blog/blog',
+            'https://ashjean7805.github.io/docu_blog/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
