@@ -94,7 +94,7 @@ const config = {
             position: 'left'
           },
           {
-            type: 'doc',
+            // type: 'doc',
             // docId: 'intro',
             to : '/docs/Intro',
             label: 'Statistics',
@@ -102,7 +102,7 @@ const config = {
             activeBaseRegex: `/docs/`,
           },
           {
-            type: 'doc',
+            // type: 'doc',
             to : '/docs-computer/Intro',
             label: 'Computer',
             position: 'left',
