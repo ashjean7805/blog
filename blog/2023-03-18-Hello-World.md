@@ -1,5 +1,4 @@
 ---
-slug: wrong-blog-post
 title: Hello World!
 authors: [Gerome]
 tags: [hello, docusaurus]

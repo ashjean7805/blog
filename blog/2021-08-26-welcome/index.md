@@ -1,5 +1,4 @@
 ---
-slug: welcome
 title: Welcome
 authors: [Gerome]
 tags: [facebook, hello, docusaurus]
