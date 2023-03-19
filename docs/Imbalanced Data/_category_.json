@@ -1,0 +1,9 @@
+
+{
+  "label": "Imbalanced Data(불균형 데이터)",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "불균형 데이터를 다루기 위한 기초적인 방법들 소개"
+  }
+}

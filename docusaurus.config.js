@@ -40,6 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath : 'docs',
+          // path : 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -60,6 +62,20 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'docs-computer',
+        path: 'docs-computer',
+        routeBasePath: 'docs-computer',
+        sidebarPath: require.resolve('./sidebars.js'),
+        editUrl:
+        'https://github.com/ashjean7805/docu_blog/tree/main/',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -73,12 +89,26 @@ const config = {
         // },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            to: '/blog', 
+            label: 'Blog', 
+            position: 'left'
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            // type: 'doc',
+            // docId: 'intro',
+            to : '/docs/Intro',
+            label: 'Statistics',
+            position: 'left',
+            activeBaseRegex: `/docs/`,
+          },
+          {
+            // type: 'doc',
+            to : '/docs-computer/Intro',
+            // sidebarId: 'Imbalanced Data',
+            label: 'Computer',
+            position: 'left',
+            activeBaseRegex: `/docs-computer/`,
+          },
           {
             href: 'https://github.com/ashjean7805',
             label: 'GitHub',
@@ -89,15 +119,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Tutorial',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
