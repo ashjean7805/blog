@@ -4,10 +4,20 @@
         <title>Gerome Yoo Blog</title>
         <link>https://ashjean7805.github.io/docu_blog/blog</link>
         <description>Gerome Yoo Blog</description>
-        <lastBuildDate>Sat, 18 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[2023-03-23 TIL]]></title>
+            <link>https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL.md</link>
+            <guid>https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL.md</guid>
+            <pubDate>Thu, 23 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Work Place]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-place">Work Place<a href="#work-place" class="hash-link" aria-label="Work Place에 대한 직접 링크" title="Work Place에 대한 직접 링크">​</a></h2><ul><li><strong>DB Timezone</strong>과 <strong>Application Timezone</strong>의 일치 여부를 확인할 것<ul><li>DB단에서 실행되는 로직과 앱에서 실행되는 로직이 다른 시간으로 생성되면 다 꼬인다.</li></ul></li><li><code>Application</code> 단에서 개발이 기획서대로 완료되었다고 해도 다시 한 번 체크<ul><li>PK 중복낼 뻔했다...</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="도큐사우루스">도큐사우루스<a href="#도큐사우루스" class="hash-link" aria-label="도큐사우루스에 대한 직접 링크" title="도큐사우루스에 대한 직접 링크">​</a></h2><ul><li>Daily TIL 작성하기!</li></ul>]]></content:encoded>
+            <category>DB</category>
+            <category>Timezone</category>
+        </item>
         <item>
             <title><![CDATA[Hello World!]]></title>
             <link>https://ashjean7805.github.io/docu_blog/blog/2023/03/18/Hello-World</link>
@@ -15,17 +25,6 @@
             <pubDate>Sat, 18 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the very first blog page using docusaurus.]]></description>
             <content:encoded><![CDATA[<p>This is the very first blog page using docusaurus.</p><p>제일 처음으로 작성하게 된 블로그 페이지입니다.</p><p>이전에도 블로그를 도큐사우루스를 사용하여 빌드하려 했으나, 프론트 개발도 잘 모르고 리액트도 모르고 해서 따라만 하고 관뒀던 전력이 있었습니다.</p><p>2번 정도 시도해보니까 이젠 구조가 조금 눈에 보이네요.</p><p>얼마나 잘 유지될지 모르겠지만, 최소한의 노력으로 데이터 쪽과 통계 쪽에 관하여 작성하기 위하 고른 툴인 만큼</p><p>해당 분야에서라도 열심히 하려고 합니다.</p><p>잘 봐주시면 감사하겠습니다.</p>]]></content:encoded>
-            <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://ashjean7805.github.io/docu_blog/blog/2021/08/26/welcome</link>
-            <guid>https://ashjean7805.github.io/docu_blog/blog/2021/08/26/welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/docu_blog/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>facebook</category>
             <category>hello</category>
             <category>docusaurus</category>
         </item>

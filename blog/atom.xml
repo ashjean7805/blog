@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ashjean7805.github.io/docu_blog/blog</id>
     <title>Gerome Yoo Blog</title>
-    <updated>2023-03-18T00:00:00.000Z</updated>
+    <updated>2023-03-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjean7805.github.io/docu_blog/blog"/>
     <subtitle>Gerome Yoo Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[2023-03-23 TIL]]></title>
+        <id>https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL.md</id>
+        <link href="https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL.md"/>
+        <updated>2023-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Work Place]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-place">Work Place<a href="#work-place" class="hash-link" aria-label="Work Place에 대한 직접 링크" title="Work Place에 대한 직접 링크">​</a></h2><ul><li><strong>DB Timezone</strong>과 <strong>Application Timezone</strong>의 일치 여부를 확인할 것<ul><li>DB단에서 실행되는 로직과 앱에서 실행되는 로직이 다른 시간으로 생성되면 다 꼬인다.</li></ul></li><li><code>Application</code> 단에서 개발이 기획서대로 완료되었다고 해도 다시 한 번 체크<ul><li>PK 중복낼 뻔했다...</li></ul></li></ul><h2 class="anchor anchorWithStickyNavbar_LWe7" id="도큐사우루스">도큐사우루스<a href="#도큐사우루스" class="hash-link" aria-label="도큐사우루스에 대한 직접 링크" title="도큐사우루스에 대한 직접 링크">​</a></h2><ul><li>Daily TIL 작성하기!</li></ul>]]></content>
+        <author>
+            <name>Gerome Yoo</name>
+            <uri>https://github.com/ashjean7805</uri>
+        </author>
+        <category label="DB" term="DB"/>
+        <category label="Timezone" term="Timezone"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
         <id>https://ashjean7805.github.io/docu_blog/blog/2023/03/18/Hello-World</id>
@@ -17,21 +31,6 @@
             <name>Gerome Yoo</name>
             <uri>https://github.com/ashjean7805</uri>
         </author>
-        <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://ashjean7805.github.io/docu_blog/blog/2021/08/26/welcome</id>
-        <link href="https://ashjean7805.github.io/docu_blog/blog/2021/08/26/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/docu_blog/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
-        <author>
-            <name>Gerome Yoo</name>
-            <uri>https://github.com/ashjean7805</uri>
-        </author>
-        <category label="facebook" term="facebook"/>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
