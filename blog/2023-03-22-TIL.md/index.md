@@ -1,5 +1,5 @@
 ---
-title: 2023-03-23 TIL
+title: 2023-03-22 TIL
 authors: [Gerome]
 tags: [DB, Timezone]
 ---
