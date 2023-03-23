@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ashjean7805.github.io/docu_blog/blog</id>
     <title>Gerome Yoo Blog</title>
-    <updated>2023-03-22T00:00:00.000Z</updated>
+    <updated>2023-03-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjean7805.github.io/docu_blog/blog"/>
     <subtitle>Gerome Yoo Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[2023-03-23 TIL]]></title>
+        <id>https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL</id>
+        <link href="https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL"/>
+        <updated>2023-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Work Place]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-place">Work Place<a href="#work-place" class="hash-link" aria-label="Work Place에 대한 직접 링크" title="Work Place에 대한 직접 링크">​</a></h2><ul><li>앞으로는 쓸 수 없는 내용이 많으면 TIL을 넘어갈 것....<ul><li>너무 도메인 중심의 내용들이고, 세부 내용들이라 제대로 언급할 수가 없음</li></ul></li><li>로그를 디자인할 때는 함수를 짤 때와 같이 재사용성을 위주로 두고 유니크한 매핑키를 사용하여 조합할 수 있도록 짜는게 좋음<ul><li>행위와 배경을 분리한다면 로그량이 더블링 될 수는 있으나 다양한 관점의 단계에서 분석이 쉬워진다.</li></ul></li></ul>]]></content>
+        <author>
+            <name>Gerome Yoo</name>
+            <uri>https://github.com/ashjean7805</uri>
+        </author>
+        <category label="DB" term="DB"/>
+        <category label="Timezone" term="Timezone"/>
+        <category label="TIL" term="TIL"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023-03-22 TIL]]></title>
         <id>https://ashjean7805.github.io/docu_blog/blog/2023/03/22/TIL.md</id>
@@ -19,6 +34,7 @@
         </author>
         <category label="DB" term="DB"/>
         <category label="Timezone" term="Timezone"/>
+        <category label="TIL" term="TIL"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello World!]]></title>
