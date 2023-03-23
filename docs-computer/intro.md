@@ -13,6 +13,3 @@ Basic Summarization of the Computer documents.
 - References
   - 
   - [Progit]()
-
-### What you'll need
-
