@@ -4,10 +4,20 @@
         <title>Gerome Yoo Blog</title>
         <link>https://ashjean7805.github.io/docu_blog/blog</link>
         <description>Gerome Yoo Blog</description>
-        <lastBuildDate>Thu, 23 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[2023-03-24 TIL]]></title>
+            <link>https://ashjean7805.github.io/docu_blog/blog/2023/03/24/TIL</link>
+            <guid>https://ashjean7805.github.io/docu_blog/blog/2023/03/24/TIL</guid>
+            <pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Work Place]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-place">Work Place<a href="#work-place" class="hash-link" aria-label="Work Place에 대한 직접 링크" title="Work Place에 대한 직접 링크">​</a></h2><ul><li>구글 스프레드시트는 query 함수를 지원한다<ul><li>일반적인 컬럼명을 사용하는 것이 아닌 해당 시트의 컬럼 넘버만 사용하면 별다르게 차이점은 없음.</li><li>결과물에서 행과 컬럼명을 자동적으로 만들어주기 때문에 해당 동작에 대한 코드 제한을 잘하여야함</li></ul></li></ul>]]></content:encoded>
+            <category>Google Spreadsheet</category>
+            <category>TIL</category>
+        </item>
         <item>
             <title><![CDATA[2023-03-23 TIL]]></title>
             <link>https://ashjean7805.github.io/docu_blog/blog/2023/03/23/TIL</link>
