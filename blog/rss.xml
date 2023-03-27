@@ -4,10 +4,20 @@
         <title>Gerome Yoo Blog</title>
         <link>https://ashjean7805.github.io/docu_blog/blog</link>
         <description>Gerome Yoo Blog</description>
-        <lastBuildDate>Fri, 24 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
+        <item>
+            <title><![CDATA[2023-03-27 TIL]]></title>
+            <link>https://ashjean7805.github.io/docu_blog/blog/2023/03/27/TIL</link>
+            <guid>https://ashjean7805.github.io/docu_blog/blog/2023/03/27/TIL</guid>
+            <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Work Place]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="work-place">Work Place<a href="#work-place" class="hash-link" aria-label="Work Place에 대한 직접 링크" title="Work Place에 대한 직접 링크">​</a></h2><ul><li>SQL 로그에서 시간 컬럼을 모아 연결하여 유저 체류시간 산출하기<ul><li>늘 그렇듯 도달하는 방법은 많으나 이번에는 세션의 수도 카운트</li><li></li><li>예외처리가 필요<ul><li>단독으로 한개만 남는 로그</li><li>앞뒤 시간이 지정된 interval 이상인 경우</li><li>예시는 코드 스니펫에 업로드</li></ul></li></ul></li></ul>]]></content:encoded>
+            <category>SQL</category>
+            <category>TIL</category>
+        </item>
         <item>
             <title><![CDATA[2023-03-24 TIL]]></title>
             <link>https://ashjean7805.github.io/docu_blog/blog/2023/03/24/TIL</link>
